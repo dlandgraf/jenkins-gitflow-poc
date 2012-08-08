@@ -1,0 +1,447 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84EF849D15D2D989005FD8E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EF849C15D2D989005FD8E4 /* UIKit.framework */; };
+		84EF849F15D2D989005FD8E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EF849E15D2D989005FD8E4 /* Foundation.framework */; };
+		84EF84A115D2D989005FD8E4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EF84A015D2D989005FD8E4 /* CoreGraphics.framework */; };
+		84EF84A715D2D989005FD8E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84EF84A515D2D989005FD8E4 /* InfoPlist.strings */; };
+		84EF84A915D2D989005FD8E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF84A815D2D989005FD8E4 /* main.m */; };
+		84EF84AD15D2D989005FD8E4 /* GitFlowPOCAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF84AC15D2D989005FD8E4 /* GitFlowPOCAppDelegate.m */; };
+		84EF84B015D2D989005FD8E4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EF84AE15D2D989005FD8E4 /* MainStoryboard.storyboard */; };
+		84EF84B315D2D989005FD8E4 /* GitFlowPOCViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF84B215D2D989005FD8E4 /* GitFlowPOCViewController.m */; };
+		84EF84BB15D2D989005FD8E4 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EF84BA15D2D989005FD8E4 /* SenTestingKit.framework */; };
+		84EF84BC15D2D989005FD8E4 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EF849C15D2D989005FD8E4 /* UIKit.framework */; };
+		84EF84BD15D2D989005FD8E4 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 84EF849E15D2D989005FD8E4 /* Foundation.framework */; };
+		84EF84C515D2D989005FD8E4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 84EF84C315D2D989005FD8E4 /* InfoPlist.strings */; };
+		84EF84C815D2D989005FD8E4 /* GitFlowPOCTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EF84C715D2D989005FD8E4 /* GitFlowPOCTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		84EF84BE15D2D989005FD8E4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 84EF848F15D2D989005FD8E4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 84EF849715D2D989005FD8E4;
+			remoteInfo = GitFlowPOC;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		84EF849815D2D989005FD8E4 /* GitFlowPOC.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GitFlowPOC.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EF849C15D2D989005FD8E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		84EF849E15D2D989005FD8E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		84EF84A015D2D989005FD8E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		84EF84A415D2D989005FD8E4 /* GitFlowPOC-Info.plist */ = {isa = PBXFileReference; path = "GitFlowPOC-Info.plist"; sourceTree = "<group>"; };
+		84EF84A615D2D989005FD8E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84EF84A815D2D989005FD8E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84EF84AA15D2D989005FD8E4 /* GitFlowPOC-Prefix.pch */ = {isa = PBXFileReference; path = "GitFlowPOC-Prefix.pch"; sourceTree = "<group>"; };
+		84EF84AB15D2D989005FD8E4 /* GitFlowPOCAppDelegate.h */ = {isa = PBXFileReference; path = GitFlowPOCAppDelegate.h; sourceTree = "<group>"; };
+		84EF84AC15D2D989005FD8E4 /* GitFlowPOCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitFlowPOCAppDelegate.m; sourceTree = "<group>"; };
+		84EF84AF15D2D989005FD8E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		84EF84B115D2D989005FD8E4 /* GitFlowPOCViewController.h */ = {isa = PBXFileReference; path = GitFlowPOCViewController.h; sourceTree = "<group>"; };
+		84EF84B215D2D989005FD8E4 /* GitFlowPOCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitFlowPOCViewController.m; sourceTree = "<group>"; };
+		84EF84B915D2D989005FD8E4 /* GitFlowPOCTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitFlowPOCTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EF84BA15D2D989005FD8E4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		84EF84C215D2D989005FD8E4 /* GitFlowPOCTests-Info.plist */ = {isa = PBXFileReference; path = "GitFlowPOCTests-Info.plist"; sourceTree = "<group>"; };
+		84EF84C415D2D989005FD8E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		84EF84C615D2D989005FD8E4 /* GitFlowPOCTests.h */ = {isa = PBXFileReference; path = GitFlowPOCTests.h; sourceTree = "<group>"; };
+		84EF84C715D2D989005FD8E4 /* GitFlowPOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitFlowPOCTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84EF849515D2D989005FD8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EF849D15D2D989005FD8E4 /* UIKit.framework in Frameworks */,
+				84EF849F15D2D989005FD8E4 /* Foundation.framework in Frameworks */,
+				84EF84A115D2D989005FD8E4 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EF84B515D2D989005FD8E4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EF84BB15D2D989005FD8E4 /* SenTestingKit.framework in Frameworks */,
+				84EF84BC15D2D989005FD8E4 /* UIKit.framework in Frameworks */,
+				84EF84BD15D2D989005FD8E4 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		84EF848D15D2D989005FD8E4 = {
+			isa = PBXGroup;
+			children = (
+				84EF84A215D2D989005FD8E4 /* GitFlowPOC */,
+				84EF84C015D2D989005FD8E4 /* GitFlowPOCTests */,
+				84EF849B15D2D989005FD8E4 /* Frameworks */,
+				84EF849915D2D989005FD8E4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		84EF849915D2D989005FD8E4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EF849815D2D989005FD8E4 /* GitFlowPOC.app */,
+				84EF84B915D2D989005FD8E4 /* GitFlowPOCTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84EF849B15D2D989005FD8E4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				84EF849C15D2D989005FD8E4 /* UIKit.framework */,
+				84EF849E15D2D989005FD8E4 /* Foundation.framework */,
+				84EF84A015D2D989005FD8E4 /* CoreGraphics.framework */,
+				84EF84BA15D2D989005FD8E4 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		84EF84A215D2D989005FD8E4 /* GitFlowPOC */ = {
+			isa = PBXGroup;
+			children = (
+				84EF84AB15D2D989005FD8E4 /* GitFlowPOCAppDelegate.h */,
+				84EF84AC15D2D989005FD8E4 /* GitFlowPOCAppDelegate.m */,
+				84EF84AE15D2D989005FD8E4 /* MainStoryboard.storyboard */,
+				84EF84B115D2D989005FD8E4 /* GitFlowPOCViewController.h */,
+				84EF84B215D2D989005FD8E4 /* GitFlowPOCViewController.m */,
+				84EF84A315D2D989005FD8E4 /* Supporting Files */,
+			);
+			path = GitFlowPOC;
+			sourceTree = "<group>";
+		};
+		84EF84A315D2D989005FD8E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84EF84A415D2D989005FD8E4 /* GitFlowPOC-Info.plist */,
+				84EF84A515D2D989005FD8E4 /* InfoPlist.strings */,
+				84EF84A815D2D989005FD8E4 /* main.m */,
+				84EF84AA15D2D989005FD8E4 /* GitFlowPOC-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		84EF84C015D2D989005FD8E4 /* GitFlowPOCTests */ = {
+			isa = PBXGroup;
+			children = (
+				84EF84C615D2D989005FD8E4 /* GitFlowPOCTests.h */,
+				84EF84C715D2D989005FD8E4 /* GitFlowPOCTests.m */,
+				84EF84C115D2D989005FD8E4 /* Supporting Files */,
+			);
+			path = GitFlowPOCTests;
+			sourceTree = "<group>";
+		};
+		84EF84C115D2D989005FD8E4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84EF84C215D2D989005FD8E4 /* GitFlowPOCTests-Info.plist */,
+				84EF84C315D2D989005FD8E4 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84EF849715D2D989005FD8E4 /* GitFlowPOC */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EF84CB15D2D989005FD8E4 /* Build configuration list for PBXNativeTarget "GitFlowPOC" */;
+			buildPhases = (
+				84EF849415D2D989005FD8E4 /* Sources */,
+				84EF849515D2D989005FD8E4 /* Frameworks */,
+				84EF849615D2D989005FD8E4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GitFlowPOC;
+			productName = GitFlowPOC;
+			productReference = 84EF849815D2D989005FD8E4 /* GitFlowPOC.app */;
+			productType = "com.apple.product-type.application";
+		};
+		84EF84B815D2D989005FD8E4 /* GitFlowPOCTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EF84CE15D2D989005FD8E4 /* Build configuration list for PBXNativeTarget "GitFlowPOCTests" */;
+			buildPhases = (
+				84EF84B415D2D989005FD8E4 /* Sources */,
+				84EF84B515D2D989005FD8E4 /* Frameworks */,
+				84EF84B615D2D989005FD8E4 /* Resources */,
+				84EF84B715D2D989005FD8E4 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				84EF84BF15D2D989005FD8E4 /* PBXTargetDependency */,
+			);
+			name = GitFlowPOCTests;
+			productName = GitFlowPOCTests;
+			productReference = 84EF84B915D2D989005FD8E4 /* GitFlowPOCTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84EF848F15D2D989005FD8E4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = GitFlowPOC;
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 84EF849215D2D989005FD8E4 /* Build configuration list for PBXProject "GitFlowPOC" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 84EF848D15D2D989005FD8E4;
+			productRefGroup = 84EF849915D2D989005FD8E4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84EF849715D2D989005FD8E4 /* GitFlowPOC */,
+				84EF84B815D2D989005FD8E4 /* GitFlowPOCTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84EF849615D2D989005FD8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EF84A715D2D989005FD8E4 /* InfoPlist.strings in Resources */,
+				84EF84B015D2D989005FD8E4 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EF84B615D2D989005FD8E4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EF84C515D2D989005FD8E4 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		84EF84B715D2D989005FD8E4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84EF849415D2D989005FD8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EF84A915D2D989005FD8E4 /* main.m in Sources */,
+				84EF84AD15D2D989005FD8E4 /* GitFlowPOCAppDelegate.m in Sources */,
+				84EF84B315D2D989005FD8E4 /* GitFlowPOCViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		84EF84B415D2D989005FD8E4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EF84C815D2D989005FD8E4 /* GitFlowPOCTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		84EF84BF15D2D989005FD8E4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 84EF849715D2D989005FD8E4 /* GitFlowPOC */;
+			targetProxy = 84EF84BE15D2D989005FD8E4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		84EF84A515D2D989005FD8E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EF84A615D2D989005FD8E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		84EF84AE15D2D989005FD8E4 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EF84AF15D2D989005FD8E4 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+		84EF84C315D2D989005FD8E4 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EF84C415D2D989005FD8E4 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84EF84C915D2D989005FD8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+			};
+			name = Debug;
+		};
+		84EF84CA15D2D989005FD8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = 2;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84EF84CC15D2D989005FD8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitFlowPOC/GitFlowPOC-Prefix.pch";
+				INFOPLIST_FILE = "GitFlowPOC/GitFlowPOC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		84EF84CD15D2D989005FD8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitFlowPOC/GitFlowPOC-Prefix.pch";
+				INFOPLIST_FILE = "GitFlowPOC/GitFlowPOC-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		84EF84CF15D2D989005FD8E4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GitFlowPOC.app/GitFlowPOC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitFlowPOC/GitFlowPOC-Prefix.pch";
+				INFOPLIST_FILE = "GitFlowPOCTests/GitFlowPOCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		84EF84D015D2D989005FD8E4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/GitFlowPOC.app/GitFlowPOC";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GitFlowPOC/GitFlowPOC-Prefix.pch";
+				INFOPLIST_FILE = "GitFlowPOCTests/GitFlowPOCTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84EF849215D2D989005FD8E4 /* Build configuration list for PBXProject "GitFlowPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EF84C915D2D989005FD8E4 /* Debug */,
+				84EF84CA15D2D989005FD8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EF84CB15D2D989005FD8E4 /* Build configuration list for PBXNativeTarget "GitFlowPOC" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EF84CC15D2D989005FD8E4 /* Debug */,
+				84EF84CD15D2D989005FD8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		84EF84CE15D2D989005FD8E4 /* Build configuration list for PBXNativeTarget "GitFlowPOCTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EF84CF15D2D989005FD8E4 /* Debug */,
+				84EF84D015D2D989005FD8E4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84EF848F15D2D989005FD8E4 /* Project object */;
+}
