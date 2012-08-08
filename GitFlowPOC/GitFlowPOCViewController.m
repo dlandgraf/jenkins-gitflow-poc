@@ -31,4 +31,9 @@
     return YES;
 }
 
+- (void) testThisStuffOut:(NSObject*) stuff
+{
+    
+}
+
 @end
