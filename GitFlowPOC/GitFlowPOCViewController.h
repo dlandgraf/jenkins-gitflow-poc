@@ -17,5 +17,6 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *NoHelp;
 
+@property (weak, nonatomic) IBOutlet UIButton *ThirdButton;
 
 @end

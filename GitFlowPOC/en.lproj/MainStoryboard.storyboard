@@ -39,12 +39,25 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="TD2-KU-5mo">
+                                <rect key="frame" x="243" y="383" width="98" height="90"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="15"/>
+                                <state key="normal">
+                                    <color key="titleColor" red="0.19607843459999999" green="0.30980393290000002" blue="0.52156865600000002" alpha="1" colorSpace="calibratedRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <state key="highlighted">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
                         <outlet property="Help" destination="UxJ-00-6pt" id="LuA-Dk-GfX"/>
                         <outlet property="NoHelp" destination="k66-QV-Ws4" id="oJb-cV-VWB"/>
+                        <outlet property="ThirdButton" destination="TD2-KU-5mo" id="UQY-tR-kzG"/>
                     </connections>
                 </viewController>
             </objects>
@@ -56,6 +69,7 @@
             <relationships>
                 <relationship kind="outlet" name="Help" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="NoHelp" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="ThirdButton" candidateClass="UIButton"/>
             </relationships>
         </class>
     </classes>
