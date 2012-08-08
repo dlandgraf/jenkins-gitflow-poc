@@ -37,20 +37,20 @@
 		84EF849C15D2D989005FD8E4 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		84EF849E15D2D989005FD8E4 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		84EF84A015D2D989005FD8E4 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		84EF84A415D2D989005FD8E4 /* GitFlowPOC-Info.plist */ = {isa = PBXFileReference; path = "GitFlowPOC-Info.plist"; sourceTree = "<group>"; };
+		84EF84A415D2D989005FD8E4 /* GitFlowPOC-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitFlowPOC-Info.plist"; sourceTree = "<group>"; };
 		84EF84A615D2D989005FD8E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		84EF84A815D2D989005FD8E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		84EF84AA15D2D989005FD8E4 /* GitFlowPOC-Prefix.pch */ = {isa = PBXFileReference; path = "GitFlowPOC-Prefix.pch"; sourceTree = "<group>"; };
-		84EF84AB15D2D989005FD8E4 /* GitFlowPOCAppDelegate.h */ = {isa = PBXFileReference; path = GitFlowPOCAppDelegate.h; sourceTree = "<group>"; };
+		84EF84AA15D2D989005FD8E4 /* GitFlowPOC-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GitFlowPOC-Prefix.pch"; sourceTree = "<group>"; };
+		84EF84AB15D2D989005FD8E4 /* GitFlowPOCAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitFlowPOCAppDelegate.h; sourceTree = "<group>"; };
 		84EF84AC15D2D989005FD8E4 /* GitFlowPOCAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitFlowPOCAppDelegate.m; sourceTree = "<group>"; };
 		84EF84AF15D2D989005FD8E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		84EF84B115D2D989005FD8E4 /* GitFlowPOCViewController.h */ = {isa = PBXFileReference; path = GitFlowPOCViewController.h; sourceTree = "<group>"; };
+		84EF84B115D2D989005FD8E4 /* GitFlowPOCViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitFlowPOCViewController.h; sourceTree = "<group>"; };
 		84EF84B215D2D989005FD8E4 /* GitFlowPOCViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitFlowPOCViewController.m; sourceTree = "<group>"; };
 		84EF84B915D2D989005FD8E4 /* GitFlowPOCTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitFlowPOCTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EF84BA15D2D989005FD8E4 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		84EF84C215D2D989005FD8E4 /* GitFlowPOCTests-Info.plist */ = {isa = PBXFileReference; path = "GitFlowPOCTests-Info.plist"; sourceTree = "<group>"; };
+		84EF84C215D2D989005FD8E4 /* GitFlowPOCTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitFlowPOCTests-Info.plist"; sourceTree = "<group>"; };
 		84EF84C415D2D989005FD8E4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		84EF84C615D2D989005FD8E4 /* GitFlowPOCTests.h */ = {isa = PBXFileReference; path = GitFlowPOCTests.h; sourceTree = "<group>"; };
+		84EF84C615D2D989005FD8E4 /* GitFlowPOCTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitFlowPOCTests.h; sourceTree = "<group>"; };
 		84EF84C715D2D989005FD8E4 /* GitFlowPOCTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitFlowPOCTests.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
