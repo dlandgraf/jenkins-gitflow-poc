@@ -12,5 +12,10 @@
 
 // Adding a test line here to force a change
 
+// added buttons
+@property (weak, nonatomic) IBOutlet UIButton *Help;
+
+@property (weak, nonatomic) IBOutlet UIButton *NoHelp;
+
 
 @end

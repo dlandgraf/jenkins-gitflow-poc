@@ -13,6 +13,8 @@
 @end
 
 @implementation GitFlowPOCViewController
+@synthesize Help;
+@synthesize NoHelp;
 
 - (void)viewDidLoad
 {
@@ -22,6 +24,8 @@
 
 - (void)viewDidUnload
 {
+    [self setHelp:nil];
+    [self setNoHelp:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }
