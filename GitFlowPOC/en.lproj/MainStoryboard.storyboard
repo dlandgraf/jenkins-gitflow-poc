@@ -51,10 +51,18 @@
                                     <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                             </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Total:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Tl8-Y8-flj">
+                                <rect key="frame" x="88" y="553" width="584" height="88"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <connections>
+                        <outlet property="BottomLabel" destination="Tl8-Y8-flj" id="MNc-rq-vCY"/>
                         <outlet property="Help" destination="UxJ-00-6pt" id="LuA-Dk-GfX"/>
                         <outlet property="NoHelp" destination="k66-QV-Ws4" id="oJb-cV-VWB"/>
                         <outlet property="ThirdButton" destination="TD2-KU-5mo" id="UQY-tR-kzG"/>
@@ -67,6 +75,7 @@
         <class className="GitFlowPOCViewController" superclassName="UIViewController">
             <source key="sourceIdentifier" type="project" relativePath="./Classes/GitFlowPOCViewController.h"/>
             <relationships>
+                <relationship kind="outlet" name="BottomLabel" candidateClass="UILabel"/>
                 <relationship kind="outlet" name="Help" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="NoHelp" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="ThirdButton" candidateClass="UIButton"/>

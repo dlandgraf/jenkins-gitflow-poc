@@ -16,6 +16,7 @@
 @synthesize Help;
 @synthesize NoHelp;
 @synthesize ThirdButton;
+@synthesize BottomLabel;
 
 - (void)viewDidLoad
 {
@@ -28,6 +29,7 @@
     [self setHelp:nil];
     [self setNoHelp:nil];
     [self setThirdButton:nil];
+    [self setBottomLabel:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
 }

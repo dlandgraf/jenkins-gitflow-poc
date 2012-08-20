@@ -19,4 +19,6 @@
 
 @property (weak, nonatomic) IBOutlet UIButton *ThirdButton;
 
+@property (weak, nonatomic) IBOutlet UILabel *BottomLabel;
+
 @end
