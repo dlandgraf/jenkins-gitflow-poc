@@ -26,7 +26,9 @@
 
 - (void)testExample
 {
-    STFail(@"Unit tests are not implemented yet in GitFlowPOCTests");
+    NSArray* temp;
+    
+    STAssertNil(temp, @"Temp should nil");
 }
 
 @end
