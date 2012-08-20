@@ -21,4 +21,5 @@
 
 @property (weak, nonatomic) IBOutlet UILabel *BottomLabel;
 
+@property (weak, nonatomic) IBOutlet UILabel *Title;
 @end

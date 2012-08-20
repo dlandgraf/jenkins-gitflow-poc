@@ -58,6 +58,13 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="This is the Title" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" minimumFontSize="10" id="Shx-Vw-W8n">
+                                <rect key="frame" x="88" y="100" width="584" height="84"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -66,6 +73,7 @@
                         <outlet property="Help" destination="UxJ-00-6pt" id="LuA-Dk-GfX"/>
                         <outlet property="NoHelp" destination="k66-QV-Ws4" id="oJb-cV-VWB"/>
                         <outlet property="ThirdButton" destination="TD2-KU-5mo" id="UQY-tR-kzG"/>
+                        <outlet property="Title" destination="Shx-Vw-W8n" id="uIY-ee-1s7"/>
                     </connections>
                 </viewController>
             </objects>
@@ -79,6 +87,7 @@
                 <relationship kind="outlet" name="Help" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="NoHelp" candidateClass="UIButton"/>
                 <relationship kind="outlet" name="ThirdButton" candidateClass="UIButton"/>
+                <relationship kind="outlet" name="Title" candidateClass="UILabel"/>
             </relationships>
         </class>
     </classes>
