@@ -7,12 +7,17 @@
 //
 
 #import "GitFlowPOCViewController.h"
+#import "GitFlowPOCView.h"
 
 @interface GitFlowPOCViewController ()
+
+@property (nonatomic, weak) IBOutlet GitFlowPOCView *pocview;
 
 @end
 
 @implementation GitFlowPOCViewController
+
+@synthesize pocview = _pocview;
 
 - (void)viewDidLoad
 {
